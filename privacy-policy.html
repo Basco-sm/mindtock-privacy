@@ -1,57 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - MindTock</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1f2937; max-width: 800px; margin: 0 auto; padding: 40px 20px; backgroundColor: #f9fafb; }
-        h1 { color: #5b21b6; font-size: 2.25rem; margin-bottom: 0.5rem; text-align: center; }
-        .date { text-align: center; color: #6b7280; margin-bottom: 2rem; font-style: italic; }
-        h2 { color: #7c3aed; font-size: 1.5rem; margin-top: 2rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem; }
-        ul { padding-left: 1.5rem; }
-        li { margin-bottom: 0.5rem; }
-        p { margin-bottom: 1rem; text-align: justify; }
-        .contact-box { background-color: #f3e8ff; border-left: 4px solid #7c3aed; padding: 15px; margin-top: 1.5rem; border-radius: 4px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — MindTock</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --ink: #1c1917;
+    --muted: #57534e;
+    --rule: #e7e5e4;
+    --accent: #9f1239; /* dark red, matches app theme */
+    --accent-soft: #fdf2f4;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 19px;
+    margin: 40px 0 12px;
+    padding-top: 4px;
+    color: var(--ink);
+  }
+
+  h2::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    margin-right: 10px;
+    border-radius: 1px;
+    transform: translateY(-2px);
+  }
+
+  p { margin: 0 0 16px; color: var(--ink); }
+
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 10px; }
+
+  strong { color: var(--ink); }
+
+  .fill {
+    background: #fff7ed;
+    border: 1px solid #fdba74;
+    color: #9a3412;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(159,18,57,0.3);
+  }
+  a:hover { border-bottom-color: var(--accent); }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 40px 18px 72px; }
+    h1 { font-size: 25px; }
+  }
+</style>
 </head>
 <body>
+<div class="wrap">
 
-    <h1>Privacy Policy</h1>
-    <p class="date">Updated at: July 6, 2026</p>
+  <header>
+    <span class="eyebrow">Privacy Policy</span>
+    <h1>MindTock</h1>
+    <div class="updated">Updated at: July 19, 2026</div>
+  </header>
 
-    <p>MindTock ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by MindTock. This Privacy Policy applies to our mobile application, MindTock (collectively, our "Service"). By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your information as described in this Privacy Policy.</p>
+  <p>MindTock ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by MindTock. This Privacy Policy applies to our mobile application, MindTock (collectively, our "Service"). By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your information as described in this Privacy Policy.</p>
 
-    <h2>Definitions and Key Terms</h2>
-    <p>To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, they are strictly defined as:</p>
-    <ul>
-        <li><strong>Company:</strong> When this policy mentions "Company," "we," "us," or "our," it refers to MindTock, which is responsible for your information under this Privacy Policy.</li>
-        <li><strong>Country:</strong> Where MindTock or the owners/founders of MindTock are based, in this case is Nigeria.</li>
-        <li><strong>Customer:</strong> Refers to the person, student, or user who signs up to use the MindTock Service to manage their morning schedules and wake-up routines.</li>
-        <li><strong>Device:</strong> Any internet-connected device such as an Android phone, iPhone, tablet, or any other mobile hardware that can be used to install and run the MindTock application.</li>
-        <li><strong>Personal Data:</strong> Any information that directly, indirectly, or in connection with other information allows for the identification or managing of a natural person.</li>
-        <li><strong>Service:</strong> Refers to the un-skippable alarm clock utility, interactive AI conversation engine, and physical movement step tracking systems provided by MindTock on this mobile platform.</li>
-        <li><strong>Third-party service:</strong> Refers to advertisers, service providers, application framework builders, or promotional partners whose software modules support our operations.</li>
+  <h2>Definitions and Key Terms</h2>
+  <p>To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, they are strictly defined as:</p>
+  <ul>
+    <li><strong>Company:</strong> When this policy mentions "Company," "we," "us," or "our," it refers to MindTock, which is responsible for your information under this Privacy Policy.</li>
+    <li><strong>Country:</strong> Where MindTock or the owners/founders of MindTock are based, in this case is Nigeria.</li>
+    <li><strong>Customer:</strong> Refers to the person, student, or user who signs up to use the MindTock Service to manage their morning schedules and wake-up routines.</li>
+    <li><strong>Device:</strong> Any internet-connected device such as an Android phone, iPhone, tablet, or any other mobile hardware that can be used to install and run the MindTock application.</li>
+    <li><strong>Personal Data:</strong> Any information that directly, indirectly, or in connection with other information allows for the identification or managing of a natural person.</li>
+    <li><strong>Service:</strong> Refers to the un-skippable alarm clock utility, interactive AI conversation engine, and physical movement step tracking systems provided by MindTock on this mobile platform.</li>
+    <li><strong>Third-party service:</strong> Refers to advertisers, service providers, application framework builders, AI processing providers, or promotional partners whose software modules support our operations.</li>
+  </ul>
+
+  <h2>Data Collection and Usage</h2>
+  <p>MindTock operates with a privacy-first local framework wherever possible. We do not maintain external centralized databases of user profiles. To deliver our core accountability challenges, the app utilizes the following native hardware permissions and features:</p>
+
+  <div class="card">
+    <ul style="margin-bottom: 0;">
+      <li><strong>Physical Accelerometer Sensors (Pedometer):</strong> MindTock utilizes your phone's built-in step counter sensors entirely locally to track your 60-step physical movement penalty to quiet active alarms. This activity data is never sent to external servers.</li>
+      <li><strong>Foreground Services &amp; Exact Alarms:</strong> We request high-priority background scheduling authority to guarantee that your custom alarm profiles ring exactly at the user-defined minute, bypassing system power restrictions or sleep modes.</li>
+      <li><strong>Photo Library Access:</strong> MindTock allows you to optionally select a photo from your device's gallery to use as your alarm screen background. This image is copied to and stored entirely within the app's local storage on your device. We do not upload, transmit, or have any access to this image.</li>
+      <li><strong>App Updates:</strong> MindTock checks Google Play for available app updates when the app launches, using Google's official In-App Update service.</li>
     </ul>
+  </div>
 
-    <h2>Data Collection and Usage</h2>
-    <p>MindTock operates with a strict, privacy-first local framework. We do not maintain external centralized databases of user profiles or log raw personal background details. To deliver our core accountability challenges, the app utilizes the following native hardware permissions completely on-device:</p>
-    <ul>
-        <li><strong>Physical Accelerometer Sensors (Pedometer):</strong> MindTock utilizes your phone's built-in step counter sensors entirely locally to track your 60-step physical movement penalty to quiet active alarms. This activity data is never sent to external servers.</li>
-        <li><strong>Foreground Services & Exact Alarms:</strong> We request high-priority background scheduling authority to guarantee that your custom alarm profiles ring exactly at the user-defined minute, bypassing system power restrictions or sleep modes.</li>
-    </ul>
+  <h2>AI Conversation Feature</h2>
+  <p>To power the interactive challenge conversation used to help dismiss your alarm, MindTock sends <span class="fill">[specify exactly what's sent — e.g., your typed responses and relevant alarm/challenge context]</span> to <span class="fill">[name of AI provider, e.g., OpenAI]</span>, a third-party AI service provider, for processing. This data is subject to <span class="fill">[provider]</span>'s own privacy practices; see <span class="fill">[link to provider's privacy policy]</span>. <span class="fill">[State whether this data is used by the provider to train their models — confirm with your provider's API terms.]</span></p>
 
-    <h2>Third-Party Advertising & Tools</h2>
-    <p>To keep this application sustainable and support monetization parameters, our platform integrates trusted third-party advertising modules that may collect anonymous device metrics to deliver relevant ad campaigns:</p>
-    <ul>
-        <li><strong>Google AdMob:</strong> We utilize Google AdMob to display banner and full-screen interstitial ads exclusively within wait/penalty screens. AdMob may utilize anonymous mobile identifiers, advertising tracking tokens, and device location properties to safely serve and optimize ad display environments.</li>
-    </ul>
+  <h2>Third-Party Advertising &amp; Tools</h2>
+  <p>To keep this application sustainable and support monetization, our platform integrates trusted third-party advertising modules that may collect anonymous device metrics to deliver relevant ad campaigns:</p>
+  <ul>
+    <li><strong>Google AdMob:</strong> We utilize Google AdMob to display banner and full-screen interstitial ads exclusively within wait/penalty screens. AdMob may utilize anonymous mobile identifiers and advertising tracking tokens to serve and optimize ad display. <span class="fill">[Include "and approximate location" only if your app actually requests a location permission for ad targeting — confirm this is genuinely in use before including it.]</span></li>
+  </ul>
 
-    <div class="contact-box">
-        <strong>How can users contact us?</strong><br>
-        If you have any questions, feedback, or compliance inquiries regarding this Privacy Policy document, you can contact us directly via email at: 
-        <a href="mailto:mindtockservice@gmail.com">obayemitoyin3@gmail.com</a>
-    </div>
+  <h2>Children's Privacy</h2>
+  <p>MindTock is not directed at children under the age of 13, and we do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us using the information below so we can address it.</p>
 
+  <h2>Data Retention</h2>
+  <p>Data stored locally on your device (alarm schedules, labels, sound preferences, background images) persists until you delete it within the app or uninstall MindTock. Uninstalling the app removes all locally stored data.</p>
+
+  <h2>Your Rights</h2>
+  <p>You may delete your locally stored data at any time by removing it within the app or uninstalling MindTock. For questions about data processed by our third-party providers (AdMob, <span class="fill">[AI provider]</span>), please refer to their respective privacy policies linked above, or contact us directly.</p>
+
+  <h2>How can users contact us?</h2>
+  <p>If you have any questions, feedback, or compliance inquiries regarding this Privacy Policy document, you can contact us directly via email at: <a href="mailto:obayemitoyin3@gmail.com">obayemitoyin3@gmail.com</a></p>
+
+  <footer>
+    MindTock — Privacy Policy · Nigeria
+  </footer>
+
+</div>
 </body>
 </html>
